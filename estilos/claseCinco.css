@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.cajaUno {
+    border: 5px solid red;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.cajaDos {
+    border: 10px solid palevioletred;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.cajaTres {
+    border: 10px solid peru;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.cajaCuatro {
+    border: 10px solid gold;
+    padding: 10px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.cajaCinco {
+    border: 10px solid orangered;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+.bxl-whatsapp {
+    color: green;
+    font-size: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+}
+
+.menu {
+    height: 40px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.cajaRelativa {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+.cajaAbsoluta {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.cajaSticky {
+    position: sticky;
+    top: 40px;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
